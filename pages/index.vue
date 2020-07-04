@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="pa-0 mt-n4" style="background: #f5f1f1">
    
       <item :items = "loadedItems" />
 

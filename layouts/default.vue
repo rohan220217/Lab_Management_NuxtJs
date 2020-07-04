@@ -54,8 +54,8 @@
         </v-list-item>
       </v-toolbar-items>
     </v-app-bar>
-    <v-sheet id="scrolling-techniques-5" class="overflow-y-auto" max-height="1000">
-      <v-container style="height: 1500px; margin-top: 150px">
+    <v-sheet id="scrolling-techniques-5" class="overflow-y-auto" max-height="1000" style="background: #f5f1f1">
+      <v-container style="height: 1500px; margin-top: 150px; ">
         <nuxt />
       </v-container>
     </v-sheet>

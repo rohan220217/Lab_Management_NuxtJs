@@ -36,8 +36,10 @@ export default {
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
-  plugins: [
-  ],
+ plugins: [
+  '~plugins/date-filter.js',
+  '~plugins/description-filter.js'
+],
   /*
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
