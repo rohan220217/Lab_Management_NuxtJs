@@ -1,10 +1,6 @@
 <template>
   <v-app dark>
-  
-    <h1 >
-      Item is Added in your cart.
-    </h1>
-   
+    <h1>Item is Added in your cart.</h1>
   </v-app>
 </template>
 

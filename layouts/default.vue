@@ -68,7 +68,7 @@
       return {
         sidebar: false,
         items: [
-          { title: 'Dashboard', icon: 'mdi-view-dashboard', link: '/' },
+          { title: 'Dashboard', icon: 'mdi-view-dashboard', link: '/login' },
           { title: 'Admin', icon: 'mdi-help-box', link: '/admin' },
           { title: 'Logout', icon: 'mdi-logout', link: '/' },
         ],

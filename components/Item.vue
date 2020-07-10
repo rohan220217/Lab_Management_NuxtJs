@@ -96,7 +96,7 @@
          if(this.isAdmin){
            this.snackbar1 =true
           this.$store.dispatch('DELETE_ITEM', id).then(() => {
-        this.$router.push("/");
+        this.$router.push("/login");
         
 
       });
