@@ -9,16 +9,14 @@
           label="Item Name"
           required
         ></v-text-field>
-        <v-text-field v-model="editedPost.link" :counter="15" label="Item Image Link" required></v-text-field>
+        <v-text-field v-model="editedPost.link" :counter="25" label="Item Image Link" required></v-text-field>
         <v-text-field
           v-model="editedPost.rating"
-          :counter="10"
+          :counter="3"
           :rules="nameRules"
           label="Rating"
           required
         ></v-text-field>
-
-
         <v-textarea v-model="editedPost.description" color="teal" :rules="nameRules" required>
           <template v-slot:label>
             <div>Description</div>

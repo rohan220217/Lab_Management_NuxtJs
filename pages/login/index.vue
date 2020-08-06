@@ -1,10 +1,10 @@
 <template>
-  <v-container class="pa-0 mt-n4" style="background: #f5f1f1">
+  <div class="pa-0 mt-n4" style="background: #f5f1f1">
    
       <item :items = "loadedItems" />
 
     
-  </v-container>
+  </div>
 </template>
 
 <script>
